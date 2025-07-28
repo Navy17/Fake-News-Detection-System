@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-True_news = pd.read_csv('E:\MajorProject\Project\True.csv')
-Fake_news = pd.read_csv('E:\MajorProject\Project\Fake.csv')
+True_news = pd.read_csv(r'C:\Code\NEXTJS\FakeNewsDetection\MLModel\True.csv')
+Fake_news = pd.read_csv(r'C:\Code\NEXTJS\FakeNewsDetection\MLModel\Fake.csv')
 
 True_news['label'] = 0
 Fake_news['label'] = 1
